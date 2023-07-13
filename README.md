@@ -3,7 +3,13 @@ DH parameters are extensively used in robotics research for defining the configu
 But in this work, a simple shape of link is also added which is just for the representation purpose. Along with DH parameter, other features like the colour and link diameter, joint limits can also be defined.
 
 Steps to make a URDF
-Initially a world link is created for reference
+1. Initially a world link is created for reference
+2. Using macro (XACRO) definitions of link connected to world link is added and then followed by link connected to the first link and so on
+3. Format to add link to existing link is as follows
+```
+	<xacro:DH_link link_no="0" a="0" alpha="1.57" d="0.0" link_dia=".05" colour_r="1" colour_g="0"
+		colour_b="0" colour_a="0.5" parent_link_name="world" mass="1" limit_min="3.14"
+		limit_max="-3.14" vel_max="10" effort_max="10" />
+```
 
-* Item 1
-* Item 2
+
