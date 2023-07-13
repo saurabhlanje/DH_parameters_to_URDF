@@ -7,7 +7,22 @@ Steps to make a URDF
 2. Using macro (XACRO) definitions of link connected to world link is added and then followed by link connected to the first link and so on
 3. Format to add link to existing link is as follows
 ```
-<xacro:DH_link link_no="0" a="0" alpha="1.57" d="0.0" link_dia=".05" colour_r="1" colour_g="0" colour_b="0" colour_a="0.5" parent_link_name="world" mass="1" limit_min="3.14" limit_max="-3.14" vel_max="10" effort_max="10" />
+<xacro:DH_link link_no="0"
+a="0" 
+alpha="1.57"
+d="0.0"
+link_dia=".05"
+colour_r="1"
+colour_g="0"
+colour_b="0"
+colour_a="0.5"
+parent_link_name="world"
+mass="1"
+limit_min="3.14"
+limit_max="-3.14"
+vel_max="10"
+effort_max="10" />
 ```
+4. The name of the parent link must be world link for the first link only afterwards the name of parent link should be ```Link_0_child_frame```
 
 
