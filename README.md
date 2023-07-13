@@ -4,3 +4,6 @@ But in this work, a simple shape of link is also added which is just for the rep
 
 Steps to make a URDF
 Initially a world link is created for reference
+
+* Item 1
+* Item 2
