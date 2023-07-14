@@ -30,4 +30,8 @@ effort_max="10" />
 
 ![alt text](https://github.com/saurabhlanje/DH_parameters_to_URDF/blob/main/UR5.png)
 
+## You can clone the repo and directly roslaunch UR5.launch file ##
+
+## See the video for more details ##
+
 
