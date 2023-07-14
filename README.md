@@ -27,6 +27,6 @@ effort_max="10" />
 5. For quick reference, the DH parameters for UR5 and PUMA 560 robotic arm is provided.
 
 
-![alt text]([http://url/to/img.png](https://github.com/saurabhlanje/DH_parameters_to_URDF/blob/main/UR5.png)https://github.com/saurabhlanje/DH_parameters_to_URDF/blob/main/UR5.png)
+![alt text](https://github.com/saurabhlanje/DH_parameters_to_URDF/blob/main/UR5.png)
 
 
