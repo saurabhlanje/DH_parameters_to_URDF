@@ -33,5 +33,5 @@ effort_max="10" />
 ## You can clone the repo and directly roslaunch UR5.launch file ##
 
 ## See the video for more details ##
-
+[Generate URDF file from DH parameters of robot arm and Visualize in RVIZ](https://www.youtube.com/watch?v=A_Wbc-vtMyw)
 
