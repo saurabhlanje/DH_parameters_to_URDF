@@ -26,6 +26,7 @@ effort_max="10" />
 4. The name of the parent link must be world link for the first link only afterwards the name of parent link should be ```Link_0_child_frame``` which tells that the link 1 is connected to child link for the link 0. Similarly parent names are to be provided.
 5. For quick reference, the DH parameters for UR5 and PUMA 560 robotic arm is provided.
 
+## UR5 robot arm in RVIZ ##
 
 ![alt text](https://github.com/saurabhlanje/DH_parameters_to_URDF/blob/main/UR5.png)
 
